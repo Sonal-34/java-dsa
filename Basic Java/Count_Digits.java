@@ -17,5 +17,6 @@ public class Count_Digits {
                 n = n/10;
         }
         System.out.println(count);
+        s.close();
     }
 }

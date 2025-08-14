@@ -13,5 +13,6 @@ public class Enhanced_Switch {
             case "Grapes" -> System.out.println("Small Fruit..");
             default -> System.out.println("Please enter a valid fruit..");
         }
+        s.close();
     }
 }

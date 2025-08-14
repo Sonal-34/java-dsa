@@ -16,6 +16,6 @@ public class Alphabet_Case_Check
         {
             System.out.println("Uppercase");
         }
-
+         s.close();
     }
 }

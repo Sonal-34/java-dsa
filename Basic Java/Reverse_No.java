@@ -13,5 +13,6 @@ public class Reverse_No {
             ans = ans * 10 + rem;
         }
         System.out.print("Reversed Number is: " + ans);
+        sc.close();
     }
 }
