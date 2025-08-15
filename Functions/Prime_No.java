@@ -15,6 +15,7 @@ public class Prime_No {
         {
             System.out.println(n + " is Not a Prime Number");
         }
+        s.close();
     }
     static boolean isPrime(int n)
     {
@@ -32,5 +33,6 @@ public class Prime_No {
                i++;
         }
         return i*i >n;
+        
     }
 }
