@@ -9,8 +9,8 @@ public class Max_Min {
         int b = s.nextInt();
         System.out.print("Enter c: ");
         int c = s.nextInt();
-        System.out.println(" Maximum no is: "  + max(a,b,c));
-        System.out.println(" Minimum no is: "  + min(a,b,c));
+        System.out.println("Maximum no is: "  + max(a,b,c));
+        System.out.println("Minimum no is: "  + min(a,b,c));
         s.close();
     }
     static int max(int a, int b, int c) {

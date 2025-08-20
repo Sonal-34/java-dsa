@@ -15,6 +15,7 @@ public class ArmStrong_No
          {
             System.out.println(n + " is Not an ArmStrong no");
          }
+         s.close();
 
     }
     static boolean isArmStrong(int n)
